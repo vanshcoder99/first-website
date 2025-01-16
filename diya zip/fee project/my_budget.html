@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="my_budget.css">
+    <link rel="shortcut icon" type="image/png"   href="favicon-screenshort.png">
+</head>
+<body>
+    <div class="header-body">
+        <div class="header-info">
+            <div class="header-logo">
+                <img src="new-logo-removebg-preview.png" alt="logo-image" class="logo-jpg">
+            </div>
+            <div class="header-heading">
+                <p>Money</p>
+                <p>Minder</p>
+            </div>
+        </div>
+
+        <div class="header-login-info">
+            <a href="loginsignup.html" class="login-button">
+                Sign Up
+            </a>
+
+            <a href="loginsignup.html" class="login-button">
+                Sign In
+            </a>
+        </div>
+    </div>
+        
+    <div class="nav-container">
+        <div class="nav-bar-container">
+            <div id="navbox">
+                <ul class="nav-list">
+                    <li>
+                        <a class="nav-option" href="home.html">Home</a>
+                    </li>
+                    
+                    <li>
+                        <a class="nav-option" href="my_exp.html">My Expenses</a>
+                    </li>
+    
+                    <li>
+                        <a class="nav-option" href="my_budget.html">My Budget</a>
+                    </li>
+    
+                    <li>
+                        <a class="nav-option" href="my_expenditure.html">My Monthly Expenditure</a>
+                    </li>
+    
+                    <li>
+                        <a class="nav-option" href="help.html">Help</a>
+                    </li>
+                </ul>
+            </div>    
+        </div>   
+    </div>
+    <main>
+    <section class="income-section">
+        <h2>Set Monthly Incomes</h2>
+        <div id="income-list">
+            <div class="income-item">
+                <label for="income-1">Income: </label>
+                <input type="number" id="income-1" placeholder="Enter amount">
+            </div>
+        </div>
+        <button id="add-income-btn">Store Income</button>
+    </section>
+
+    <section class="budget-section">
+        <h2>Set Budget Percentages</h2>
+        <div class="budget-item">
+            <label for="food-budget">Food: </label>
+            <input type="number" id="food-budget" placeholder="Enter percentage" min="0" max="100">
+        </div>
+        <div class="budget-item">
+            <label for="housing-budget">Housing: </label>
+            <input type="number" id="housing-budget" placeholder="Enter percentage" min="0" max="100">
+        </div>
+        <div class="budget-item">
+            <label for="entertainment-budget">Entertainment: </label>
+            <input type="number" id="entertainment-budget" placeholder="Enter percentage" min="0" max="100">
+        </div>
+    </section>
+
+    <section class="summary-section">
+        <h2>Summary</h2>
+        <p id="total-income">Total Income: $0</p>
+        <p id="total-budget">Total Budget: 0%</p>
+        <p id="total-budget">Amount available: 0%</p>
+    </section>
+
+    <button id="calculate-btn">Calculate</button>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="upper-footer">
+                <div class="footer-main-heading">
+                    <p>Smart money management leads to a wealthier tomorrow</p>
+                </div>
+            </div>
+
+            <div class="lower-footer">
+                <div class="footer-info">
+                    <footer-logo class="footer-logo">
+                        <img src="new-logo-removebg-preview.png" alt="money-minder-logo">
+                    </footer-logo>
+
+                    <div class="footer-name">
+                        <p>Money</p>
+                        <p>Minder</p>
+                    </div>
+                </div>
+
+                    <div class="footer-tag-box">
+                    <div class="nav-bar-links">
+                            <ul class="footer-bar">
+                    
+                                <li><a href="#home" id="footer-list-tag">Home</a></li>
+                                <li><a href="#myexpenses" id="footer-list-tag">My Expenses</a></li>
+                                <li><a href="#mybudget" id="footer-list-tag">My Budget</a></li>
+                                <li><a href="#mymonthlyexpenditure" id="footer-list-tag">My Monthly Expenditure</a></li>
+                                <li><a href="#help" id="footer-list-tag">Help</a></li>
+                            </ul>
+                        
+                    </div>
+
+                    <div class="support-bar">
+
+                        <ul class="footer-bar" type="">
+                            
+                            <li><a id="footer-list-tag" href="#aboutus">About Us</a></li>
+                            <li><a id="footer-list-tag" href="#emailus">Email Us</a></li>
+                            <li><a id="footer-list-tag" href="#faqs">FAQS</a></li>
+                        </ul>
+                    </div>
+
+                </div> 
+            </div>
+
+        </div>
+    </footer>
+
+    <div class="copyright-footer">
+        <div class="copy-right-container">
+            <div class="rights-received" >
+                <p id="copy-right-info" color="white">&copy; 2024 Money Minder, All Rights Received</p>
+            </div>
+        </div>
+
+        <div class="terms-conditions" id="copy-right-info">
+            <p color="white">Terms & Conditions</p>
+        </div>
+    </div>
+
+    <script src="my_budget.js"></script>
+    </body>
+    </html>
+    
+
+

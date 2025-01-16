@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(https://cdn-media-2.freecodecamp.org/w1280/5f9c9cfc740569d1a4ca3543.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(31, 31, 77, 0.862);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    height: 500px;
+    width: 600px;
+    background-color: #020e65;
+    border:2px solid black;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.signupheading h2{
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+}
+
+.names{
+    display: flex;
+    flex-direction: row;
+    /* gap: 10px; */
+    justify-content: space-evenly;
+
+
+}
+
+.names input{
+    height: 35px;
+    width: 190px;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.email input{
+    height: 35px;
+    width: 190px;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.phone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.phone input{
+    height: 35px;
+    width: 190px;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+
+.password{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 5px;
+}
+
+.password input{
+    height: 35px;
+    width: 190px;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+    gap: 7px;
+}
+
+.termsandconditions label{
+    font-size: 1.1rem;
+    color: white;
+}
+
+.termsandconditions a{
+    font-size: 1.1rem;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.signupbutton input{
+    height: 35px;
+    width: 150px;
+    border-radius: 10px;
+}
+
+.loginhere p{
+    font-size: 1.1rem;
+    color: white;
+}
+
+.loginhere a{
+    font-size: 1.1rem;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+

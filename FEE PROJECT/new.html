@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            height: 100vh;
+            width: 100vw;
+            background-color: rgba(31, 31, 77, 0.862);
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            background-image: url(https://cdn-media-2.freecodecamp.org/w1280/5f9c9cfc740569d1a4ca3543.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .box{
+            height: 400px;
+            width: 500px;
+            background-color: white;
+            border:2px solid black;
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            /* background-image: url(feeimage.jpg);
+            background-repeat: no-repeat;
+            background-size: cover; */
+            background-color: #020e65;
+            box-shadow: 0px 0px 20px white
+            ;
+        }
+        .loginpage{
+            text-align: center;
+            margin-top: 30px;
+        }
+        .loginpage h2{
+           color: white;
+           margin-top: 20px;
+        }
+        .userinfo{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            /* padding: ; */
+        }
+        .username,.password{
+            margin: 10px;
+        }
+        label{
+            font-size: 25px;
+            font-family: cursive;
+            margin-right: 10px;
+            color: white;
+        }
+        input{
+            width: 200px;
+            height: 30px;
+            margin-left: 10px;
+            align-items: center;
+            font-family: cursive;
+            text-align: center;
+            border: 2px solid black;
+            border-radius: 5px;
+            margin: 15px;
+            /* gap: 20px; */
+
+
+        }
+    
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <div class="loginpage">
+                <p><h2>Login Form</h2></p>
+            </div>
+            <div class="userinfo">
+                <table>
+                    <div class="username">
+                    <tr>
+                        <td>
+                            <label for="username">Username</label>
+                        </td>
+                        <td>
+                            <input type="text" name="username" id="username" placeholder="username">
+
+                        </td>
+                    </tr>
+                    </div>
+
+                    <div class="password">
+                        <tr>
+                            <Td>
+                                <label for="password">Password</label>
+                            </Td>
+                            <Td>
+                                <input type="password" name="password" id="password" placeholder="Password">
+                            </Td>
+                        </tr>
+                    </div>
+                </div>    
+                </table>
+               
+                    
+                   
+
+                
+                
+            </div>
+            <div class="button">
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>

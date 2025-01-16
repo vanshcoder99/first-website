@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Help Section</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-image: url("WhatsApp Image 2024-10-24 at 15.18.09_d4ee72b5.png");
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+        max-width: 800px;
+        margin: auto;
+        background-image: url('https://cdn-media-2.freecodecamp.org/w1280/5f9c9cfc740569d1a4ca3543.jpg');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2,p {
+            color: #f9f6f6;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        .header-body{
+    background-color: rgb(244, 229, 229);
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 35rem;
+    padding: 0.65rem 1.5rem;
+    top: 0;
+    position: sticky;
+    background-image: url(360_F_437549071_7uQvtqTIgd50l2r0OZ1g0zJnLwnzJmIG.jpg);
+    background-size: cover;
+}
+
+.header-info{
+    padding: 1rem 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.header-logo img{
+    height: 6rem;
+    width: 6rem;
+    border-radius: 50%;
+}
+
+
+.header-heading p{
+    font-size: 2rem;
+    font-family: serif;
+    font-weight: bold;
+}
+
+.header-login-info{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.login-button{
+    /* border: 2px solid black; */
+    border-radius: 0.375rem;
+    padding: 0.65rem 1.3rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+    background-image: linear-gradient( #2b5876 0%, #4e4376  51%, #2b5876  100%);
+    transition: 0.5s;
+}
+
+.login-button:hover{
+    background-image: linear-gradient(to right, #a466b1 0%, #6a418e  51%, #871f9c  100%);
+}
+
+.header-login-info a{
+    text-decoration: none;
+}
+
+.nav-container{
+    height: 0;
+    display: flex;
+    justify-content: flex-end;
+    /* position: relative; */
+    /* padding: 1rem 0; */
+    position: sticky;
+    top: 120px;
+}
+
+.nav-bar-container{
+    height: 4rem;
+    padding: 1.25rem;
+    background-color:orange;
+    display: flex;
+    justify-content: flex-end;
+    width: 80%;
+    border-top-left-radius:20px ;
+    border-bottom-left-radius: 20px;
+    /* position: relative; */
+    /* top: 70px; */
+}
+
+
+
+
+#navbox{
+    width: 70%;
+    text-align: end;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 3rem;
+}
+
+.nav-list{
+    display: flex;
+    flex-direction: row;
+    gap: 2.5rem;
+    list-style: none;
+}
+
+.nav-option{
+    color: black;
+}
+
+.nav-option:hover{
+    color: white;
+}
+#navbox a{
+    text-decoration: none;
+}
+    </style>
+</head>
+<body>
+    <div class="header-body">
+        <div class="header-info">
+            <div class="header-logo">
+                <img src="yOItHqzbSMmHG0C1f4yrZw.jpg" alt="logo-image" class="logo-jpg">
+            </div>
+            <div class="header-heading">
+                <p>Money</p>
+                <p>Minder</p>
+            </div>
+        </div>
+
+        <div class="header-login-info">
+            <a href="#sign" class="login-button">
+                Sign Up
+            </a>
+
+            <a href="#Login" class="login-button">
+                Login
+            </a>
+        </div>
+    </div>
+        
+    <div class="nav-container">
+        <div class="nav-bar-container">
+            <div id="navbox">
+                <ul class="nav-list">
+                    <li>
+                        <a class="nav-option" href="#">Home</a>
+                    </li>
+                    
+                    <li>
+                        <a class="nav-option" href="#">My expenses</a>
+                    </li>
+    
+                    <li>
+                        <a class="nav-option" href="#">My budget</a>
+                    </li>
+    
+                    <li>
+                        <a class="nav-option" href="#">My monthly expenditure</a>
+                    </li>
+    
+                    <li>
+                        <a class="nav-option" href="#">Help</a>
+                    </li>
+                </ul>
+            </div>    
+        </div>   
+    </div>
+    <div class="container">
+        <h1>Help</h1>
+        <h2>How To Get Started?</h2>
+        <p>Welcome to Money Minder! Our platform helps you manage your finances by tracking your expenses and budgeting effectively. To get started, create an account by clicking on the "Sign Up" button and follow the prompts to set up your profile.</p>
+        
+        <h2>How To Navigate?</h2>
+        <p>Learn how to navigate the dashboard and menu to access different features.</p>
+        
+        <h2>How To Add Expenses?</h2>
+        <p>To add a new expense, click on the "My monthly expenditure" button on the dashboard. Enter the amount, date, category, and any tags you want to associate with the expense. Save the entry to add it to your records.</p>
+        
+        <h2>How To Manage Expenses?</h2>
+        <p>You can view your expenses by clicking on the "My expenses" tab in the menu. Use the search bar to find specific entries, and click on an expense to edit or delete it.</p>
+        
+        <h2>How To Set Budgets?</h2>
+        <p>To set a budget, go to the "My budget" section and click on "Add Budget." Enter the budget amount and the categories you want to set it for. You can track your progress towards your .</p>
+        
+        <h2>How To Generate Reports?</h2>
+        <p> Monthly report will we generated through Email or "My expenses section"</p>
+        
+        <h2>Contact Support</h2>
+        <p>If you need help, you can contact our support team at support@expensetracker.com or call us at 123-456-7890. You can also submit a support ticket through the "Help" section on our website.</p>
+    </div>
+</body>
+</html>

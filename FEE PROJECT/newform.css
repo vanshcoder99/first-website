@@ -1,0 +1,94 @@
+.container{
+    background-image: url(https://cdn-media-2.freecodecamp.org/w1280/5f9c9cfc740569d1a4ca3543.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100% ;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    /* width: ;
+    height: 100vh; */
+    /* background-color: #1c87c9; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.box{
+    height: 700px;
+    width: 500px;
+    background-color: #020e65;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.upperbox{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 35px;
+    text-align: center;
+    border: 2px solid black;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: white;
+    
+}
+.personaldetails h2{
+    font-size: 25px;
+    font-weight: bold;
+}
+input,select{
+    height: 40px;
+    width: 300px;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    transition: all 2s 0s ease-out;
+
+}
+.lowerbox{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 35px;
+    text-align: center;
+    border: 2px solid black;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: white;
+}
+input:hover{
+    transform: scale(1.1,1.1);
+}
+select:hover{
+    transform: scale(1.1,1.1);
+}
+.text h1{
+    font-size: 70px;
+    color: white;
+    font-family: "Lucida Handwriting", cursive;
+}
+.text h2{
+    font-size: 70px;
+    color: white;
+    font-family: "Lucida Handwriting", cursive;
+}
+.submitbutton{
+    padding: 10px;
+    margin-top: 12px;
+}
+.submitbutton input{
+    color: rgb(29, 29, 62);
+}
